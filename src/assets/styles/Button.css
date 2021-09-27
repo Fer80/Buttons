@@ -1,0 +1,147 @@
+button.button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #3F3F3F;
+    padding: 8px 16px;
+    background-color: #E0E0E0;
+    border: 0;
+    border-radius: 6px;
+    box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
+    cursor: pointer;
+    font-family: 'Noto sans JP', sans-serif;
+}
+
+/* button.button:hover, button.button:focus {
+    background-color: #AEAEAE;
+    color: #3F3F3F;
+} */
+
+button.button.hovered {
+    background-color: #AEAEAE;
+    color: #3F3F3F;
+}
+
+button.outline {
+    background-color: transparent;
+    border: 1px solid #3D5AFE;
+    color: #3D5AFE;
+    box-shadow: none;
+}
+
+/* button.outline:hover, button.outline:focus {
+    background-color: rgba(41, 98, 255, 0.1);
+} */
+
+button.outline.hovered {
+    background-color: rgba(41, 98, 255, 0.1);
+    color: #3D5AFE;
+}
+
+button.text {
+    background-color: transparent;
+    color: #3D5AFE;
+    box-shadow: none;
+    padding: 8px 0;
+}
+
+/* button.text:hover, button.text:focus {
+    background-color: rgba(41, 98, 255, 0.1);
+    color: #3D5AFE;
+    padding: 8px 16px;
+} */
+
+button.text.hovered {
+    background-color: rgba(41, 98, 255, 0.1);
+    color: #3D5AFE;
+    padding: 8px 16px;
+}
+
+button.disableShadow {
+    background-color: #3D5AFE;
+    color: #FFF;
+    box-shadow: none;
+}
+
+button.disabled {
+    color: #9E9E9E;
+}
+
+button.icon {
+    background-color: #2962FF;
+    color: #fff;
+    box-shadow: 0px 2px 3px rgba(0, 49, 202, 0.2);
+}
+
+button.sm, button.md, button.lg {
+    background-color: #2962FF;
+    box-shadow: 0px 2px 3px rgba(0, 49, 202, 0.2);
+    color: #fff;
+}
+
+button.sm {
+    padding: 6px 12px;
+}
+
+button.lg {
+    padding: 11px 22px;
+}
+
+button.primary {
+    color: #FFF;
+    background-color: #2962FF;
+    box-shadow: 0px 2px 3px rgba(41, 98, 255, 0.2);
+}
+
+
+/* button.primary:hover, button.primary:focus {
+    color: #FFF;
+    background-color: #0039CB;
+} */
+
+button.primary.hovered {
+    color: #FFF;
+    background-color: #0039CB;
+}
+
+button.secondary {
+    background-color: #455A64;
+    box-shadow: rgba(69, 90, 100, 0.2);
+    color: #FFF;
+}
+
+/* button.secondary:hover, button.secondary:focus {
+    color: #FFF;
+    background-color: #1C313A;
+    box-shadow: rgba(69, 90, 100, 0.2);
+} */
+
+button.secondary.hovered {
+    color: #FFF;
+    background-color: #1C313A;
+    box-shadow: rgba(69, 90, 100, 0.2);
+}
+
+button.danger {
+    color: #FFF;
+    background-color: #D32F2F;
+    box-shadow: rgba(211, 47, 47, 0.2);
+}
+
+/* button.danger:hover, button.danger:focus {
+    color: #FFF;
+    background-color: #9A0007;
+    box-shadow: rgba(211, 47, 47, 0.2);
+} */
+
+button.danger.hovered {
+    color: #FFF;
+    background-color: #9A0007;
+    box-shadow: rgba(211, 47, 47, 0.2);
+}
+
+button > .material-icons {
+    font-size: 14px;
+}
